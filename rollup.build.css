@@ -1,0 +1,8 @@
+.sen-drag[data-v-46b9ef98] {
+  padding: 5px 15px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  position: absolute;
+  cursor: move;
+  user-select: none;
+}

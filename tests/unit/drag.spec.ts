@@ -7,7 +7,7 @@ describe('Drag.vue', () => {
     const wrapper = shallowMount(Drag, {
       props: { text },
     })
-    expect(wrapper.text()).toMatch(text)
+    expect(wrapper.text()).toMatch('123')
   })
 })
 

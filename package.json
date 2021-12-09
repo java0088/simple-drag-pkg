@@ -1,6 +1,6 @@
 {
   "name": "simple-drag-pkg",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "module": "lib/simple-drag-pkg.esm.js",
   "main": "lib/simple-drag-pkg.umd.js",

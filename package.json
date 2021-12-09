@@ -12,14 +12,14 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "test:unit": "vue-cli-service test:unit",
+    "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx && pretty-quick --branch dev",
     "build": "yarn clean && yarn build:esm && yarn build:umd",
     "build:esm": "rollup --config build/rollup.esm.config.js",
     "build:umd": "rollup --config build/rollup.umd.config.js",
     "clean": "rimraf ./lib",
-    "prepublishOnly": "npm run lint && npm run test:unit && npm run build",
+    "prepublishOnly": "npm run lint && npm run test && npm run build",
     "prepare": "husky install"
   },
   "dependencies": {

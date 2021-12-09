@@ -6,6 +6,6 @@ deploy:
   provider: npm
   email: 965002107@qq.com
   skip_cleanup: true
-  api_key: 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
+  api_key: npm_b2SFxzTAket01rK0wV
   on:
     tags: true

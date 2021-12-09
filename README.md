@@ -1,29 +1,29 @@
-# simple-drag
+# 一个简单拖拽组件
 
-## Project setup
-```
-yarn install
-```
+<p align="center">
+	<a href="https://www.npmjs.com/package/commander" target="_blank">
+		<img src="https://img.shields.io/badge/vuejs-vue3.x-green" alt="commander">
+	</a>
+	<a href="https://www.npmjs.com/package/inquirer" target="_blank">
+		<img src="https://img.shields.io/badge/typescript-%3E4.0.0-blue" alt="typescript">
+	</a>
+</p>
+<p>&nbsp;</p>
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+#### 🌈介绍
 
-### Compiles and minifies for production
-```
-yarn build
-```
+基于 vue3.x + CompositionAPI + typescript + rollup + vue-jest + travis 封装的一个推拽组件，完成CI/CD流程，发布打包测试。
 
-### Run your unit tests
-```
-yarn test:unit
-```
+#### ⚡ 使用说明
+```bash
+# 下载包文件
+npm install simple-drag-pkg
 
-### Lints and fixes files
-```
-yarn lint
-```
+# 项目中引入组件
+import SimpleDrag from 'simple-drag-pkg'
+import 'simple-drag-pkg/lib/bundle.css'
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 使用
+<simple-drag text="自定义文本" />
+
+```

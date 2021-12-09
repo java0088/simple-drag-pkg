@@ -1,5 +1,5 @@
 <template>
-  <div class="sen-drag" draggable="true" :style="style" v-on="events">
+  <div class="simple-drag" draggable="true" :style="style" v-on="events">
     {{ text }}
   </div>
 </template>
@@ -8,7 +8,7 @@
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
-  name: 'SenDrag',
+  name: 'SimpleDrag',
   props: {
     text: {
       type: String,
@@ -43,7 +43,7 @@ export default defineComponent({
 })
 </script>
 <style scoped>
-.sen-drag {
+.simple-drag {
   padding: 5px 15px;
   border-radius: 3px;
   border: 1px solid #ccc;

@@ -18,7 +18,7 @@ describe('Drag.vue', () => {
       props: { text },
     })
     expect(wrapper.html()).toMatch(
-      `<div class="sen-drag" draggable="true" style="left: 0px; top: 0px;">${text}</div>`
+      `<div class="simple-drag" draggable="true" style="left: 0px; top: 0px;">${text}</div>`
     )
   })
 })

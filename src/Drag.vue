@@ -43,7 +43,7 @@ export default defineComponent({
 })
 
 </script>
-<style lang="less" scoped>
+<style scoped>
 .sen-drag {
   padding: 5px 15px;
   border-radius: 3px;

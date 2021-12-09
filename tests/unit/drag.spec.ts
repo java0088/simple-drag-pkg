@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils'
-import { Drag } from '../../packages'
+import { Drag } from '../../src'
 
 describe('Drag.vue', () => {
   it('renders props.text when passed', () => {

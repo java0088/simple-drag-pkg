@@ -1,4 +1,4 @@
-# dimple-drag
+# simple-drag
 
 ## Project setup
 ```

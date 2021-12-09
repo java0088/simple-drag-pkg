@@ -41,7 +41,6 @@ export default defineComponent({
     }
   },
 })
-
 </script>
 <style scoped>
 .sen-drag {
@@ -53,4 +52,3 @@ export default defineComponent({
   user-select: none;
 }
 </style>
-
